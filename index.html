@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Titre head</title>
+    <link rel="manifest" href="manifest.json" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" href="images/hello-icon-152.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="white" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="red" />
+    <meta name="apple-mobile-web-app-title" content="title apple" />
+    <script src="js/main.js" defer></script>
+    <!-- defer = execution du script après que le cahrgement du  document -->
+  </head>
+  <body class="fullscreen">
+    <div class="container">
+      <h1 class="title">Suivez les couleurs...</h1>
+      <button class="button" onclick="generateColor()">Commencer</button>
+      <div class="circle" id="circle1" onclick="changeColor1()" onclick="verif1()"></div>
+      <div class="circle" id="circle2" onclick="changeColor2()" onclick="verif2()"></div>
+      <div class="circle" id="circle3" onclick="changeColor3()" onclick="verif3()"></div>
+    </div>
+  </body>
+</html>
